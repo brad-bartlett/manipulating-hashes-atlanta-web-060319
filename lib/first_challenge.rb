@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  contacts.delete_if{["Freddy Mercury"][:favorite_icecream_flavors] = "strawberry"}
+  contacts.delete_if{["Freddy Mercury"][:favorite_icecream_flavors] = "strawberry"}' do 
 
 
   #remember to return your newly altered contacts hash!
